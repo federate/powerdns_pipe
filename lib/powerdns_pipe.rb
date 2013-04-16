@@ -1,3 +1,5 @@
+require 'eventmachine'
+
 module PowerDNS
 
   # DnsPipe is an abstraction of the Powerdns pipe backend protocol.

@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.rdoc"]
 
   s.files = Dir.glob("lib/*")
+  s.add_runtime_dependency 'eventmachine', '~> 1.0.3'
 end
